@@ -124,7 +124,7 @@ def pic2pdf():
     doc.close()
 
 if __name__ == '__main__':
-    name="盆底肌运动 - 副本.pptx.pdf"
-#    pdf2png(name)
-#    pic2pdf()
+    name="your pdf file path"
+    pdf2png(name)
+    pic2pdf()
     pdf2word(name)
